@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>AI Curriculum Designer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 AI Educational Designer</h1>
+        <p>Enter your career goal to get a custom roadmap.</p>
+        <form action="/generate" method="POST">
+            <input type="text" name="goal" placeholder="e.g. Become a Web Developer" required>
+            <button type="submit">Generate My Plan</button>
+        </form>
+    </div>
+</body>
+</html>
