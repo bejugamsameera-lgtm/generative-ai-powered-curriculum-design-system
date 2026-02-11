@@ -1,0 +1,4 @@
+flask
+flask-sqlalchemy
+openai==0.28
+requests
